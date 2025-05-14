@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.number {
+  margin-left: 8px;
+}
+
+.button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 8px;
+}
+
+.button:hover {
+  background-color: #c0392b;
+}
