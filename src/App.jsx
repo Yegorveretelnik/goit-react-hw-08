@@ -34,7 +34,7 @@ export default function App() {
             path="/register"
             element={
               <RestrictedRoute
-                redirectTo="/tasks"
+                redirectTo="/contacts"
                 component={<RegistrationPage />}
               />
             }
@@ -42,7 +42,10 @@ export default function App() {
           <Route
             path="/login"
             element={
-              <RestrictedRoute redirectTo="/tasks" component={<LoginPage />} />
+              <RestrictedRoute
+                redirectTo="/contacts"
+                component={<LoginPage />}
+              />
             }
           />
           <Route
